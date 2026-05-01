@@ -9,7 +9,7 @@ This repository contains a Jupyter Notebook for training a YOLOv8 model to detec
 - **Visual Results**: Built-in visualization tools to inspect model performance on test images.
 
 ## 📁 Project Structure
-- `helmet_detection.ipynb`: The main notebook for training and detection.
+- `HELMET_DETECTION.ipynb`: The main notebook for training and detection.
 - `dataset_helmet/`: Local dataset directory.
   - `images/`: Dataset images.
   - `annotations/`: Corresponding YOLO format labels.
@@ -23,7 +23,7 @@ pip install ultralytics roboflow
 ```
 
 ### Usage
-1. Open `helmet_detection.ipynb` in Jupyter or Google Colab.
+1. Open `HELMET_DETECTION.ipynb` in Jupyter or Google Colab.
 2. Follow the cells to:
    - Install dependencies.
    - Load the dataset (local or via Roboflow).
